@@ -9,14 +9,14 @@ class Person:
     self.name = name
     self.age = age
 
-name = input('Input your name: ')
-age = input('Input your age: ')
-var2 = Person(name, age)
-print('Name:', var2.name)
-print('Age:', var2.age)
+# name = input('Input your name: ')
+# age = input('Input your age: ')
+# var2 = Person(name, age)
+# print('Name:', var2.name)
+# print('Age:', var2.age)
 
-del var2
-print(var2)
+# del var2
+# print(var2)
 
 class Student():
   name = 'Jeon Wonwoo'
